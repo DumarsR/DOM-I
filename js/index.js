@@ -41,3 +41,10 @@ const siteContent = {
 document.getElementById("logo-img").setAttribute('src', siteContent["nav"]["img-src"]);
 document.getElementById("cta-img").setAttribute('src', siteContent["cta"]["img-src"]);
 document.getElementById("middle-img").setAttribute('src',siteContent["main-content"]["middle-img-src"]);
+
+document.querySelector("nav :nth-child(1)").textContent = siteContent["nav"]["nav-item-1"];
+document.querySelector("nav :nth-child(2)").textContent = siteContent["nav"]["nav-item-2"];
+document.querySelector("nav :nth-child(3)").textContent = siteContent["nav"]["nav-item-3"];
+document.querySelector("nav :nth-child(4)").textContent = siteContent["nav"]["nav-item-4"];
+document.querySelector("nav :nth-child(5)").textContent = siteContent["nav"]["nav-item-5"];
+document.querySelector("nav :nth-child(6)").textContent = siteContent["nav"]["nav-item-6"];
