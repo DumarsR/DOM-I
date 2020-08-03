@@ -48,3 +48,6 @@ document.querySelector("nav :nth-child(3)").textContent = siteContent["nav"]["na
 document.querySelector("nav :nth-child(4)").textContent = siteContent["nav"]["nav-item-4"];
 document.querySelector("nav :nth-child(5)").textContent = siteContent["nav"]["nav-item-5"];
 document.querySelector("nav :nth-child(6)").textContent = siteContent["nav"]["nav-item-6"];
+
+document.querySelector(".cta-text h1").textContent = siteContent["cta"]["h1"];
+document.querySelector(".cta-text button").textContent = siteContent["cta"]["button"];
